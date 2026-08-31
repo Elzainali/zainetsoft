@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elzain Ali — متخصص معلوماتية وشغوف بالتقنية</title>
+<meta name="description" content="الموقع الشخصي لإلزين علي: متخصص معلوماتية يمتلك خبرة عملية في تطوير البرمجيات وعتاد الحاسوب.">
+<script>
+(function(){
+  try{
+    var stored = localStorage.getItem('theme');
+    var theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    if(theme === 'light'){ document.documentElement.setAttribute('data-theme','light'); }
+  }catch(e){}
+})();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">الانتقال إلى المحتوى</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">EA</span>
+      <span class="brand-name">Elzain Ali</span>
+    </a>
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+      <a href="#about">عني</a>
+      <a href="#skills">المهارات</a>
+      <a href="#projects">المشاريع</a>
+      <a href="#contact">تواصل</a>
+      <a href="index.html" class="lang-switch" lang="de" dir="ltr" hreflang="de">Deutsch</a>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="التبديل إلى الوضع الفاتح" aria-pressed="false">
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+          <mask id="moon-mask">
+            <rect x="0" y="0" width="24" height="24" fill="#fff"></rect>
+            <circle cx="15" cy="9" r="7" fill="#000"></circle>
+          </mask>
+          <circle cx="12" cy="12" r="9" fill="currentColor" mask="url(#moon-mask)"></circle>
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="12" cy="12" r="4" fill="currentColor" stroke="none"></circle>
+          <line x1="12" y1="2" x2="12" y2="4"></line>
+          <line x1="12" y1="20" x2="12" y2="22"></line>
+          <line x1="2" y1="12" x2="4" y2="12"></line>
+          <line x1="20" y1="12" x2="22" y2="12"></line>
+          <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+          <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+          <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+          <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+        </svg>
+      </button>
+    </nav>
+    <button class="nav-toggle" aria-label="فتح القائمة" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <div class="hero-top">
+        <div class="hero-text">
+          <p class="eyebrow">ملف&nbsp;تعريفي&nbsp;/&nbsp;بورتفوليو</p>
+          <h1 class="hero-name">Elzain Ali</h1>
+          <p class="hero-role">متخصص معلوماتية · تطوير برمجيات · عتاد حاسوب</p>
+          <p class="hero-pitch">
+            أنهيت دراستي في علوم الحاسوب، وواصلت منذ ذلك الحين التطور العملي: طوّرت مشاريع
+            برمجية خاصة بي، وفهمت عتاد الحاسوب حتى أدق تفاصيله وقمت بتجميعه بنفسي. مستعد
+            لتوظيف هذه المعرفة في بيئة عمل تقنية.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">عرض المشاريع</a>
+            <a href="#contact" class="btn btn-ghost">تواصل معي</a>
+          </div>
+
+          <dl class="spec-row">
+            <div class="spec-item">
+              <dt>الموقع</dt>
+              <dd>أنسبيك، ساكسونيا السفلى</dd>
+            </div>
+            <div class="spec-item">
+              <dt>اللغات</dt>
+              <dd>الألمانية (B2) · الإنجليزية (B2) · العربية (لغة أم)</dd>
+            </div>
+            <div class="spec-item">
+              <dt>التوفر</dt>
+              <dd>فوراً</dd>
+            </div>
+          </dl>
+        </div>
+
+        <img
+          class="hero-photo"
+          src="images/zainet2.jpg"
+          alt="صورة شخصية لإلزين علي"
+          width="180"
+          height="180"
+          loading="eager">
+      </div>
+    </div>
+
+    <svg class="trace" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true">
+      <path id="trace-path" d="M0,30 L260,30 L300,10 L420,10 L460,30 L760,30 L800,50 L940,50 L980,30 L1200,30" />
+      <circle class="trace-node" cx="300" cy="10" r="4"></circle>
+      <circle class="trace-node" cx="800" cy="50" r="4"></circle>
+      <circle class="trace-node" cx="980" cy="30" r="4"></circle>
+    </svg>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner narrow">
+      <p class="section-label">01 — عني</p>
+      <p class="lead">
+        أنهيت دراستي في علوم الحاسوب عام 1998 في الخرطوم (السودان)، وأعيش في ألمانيا منذ
+        عام 2016. طوال هذه السنوات لم أتوقف يوماً عن الاهتمام بالتقنية — بل على العكس:
+        نفّذت مشاريع برمجية حقيقية بشكل مستقل، واكتسبت معرفة عملية عميقة بعتاد الحاسوب،
+        بما في ذلك التجميع الكامل لحاسوب عالي الأداء بنفسي.
+      </p>
+      <p>
+        هذا المزيج بين الأساس النظري والخبرة العملية التي اكتسبتها بنفسي هو جوهر ما أرغب
+        في تقديمه لمهمة مهنية جديدة: فهم تقني، دقة في التفاصيل، والقدرة على شرح الأمور
+        المعقدة ببساطة.
+      </p>
+
+      <div class="highlight-box">
+        <p class="highlight-label">ما قمت به في ألمانيا حتى الآن</p>
+        <p class="highlight-text">
+          إلى جانب تطوري التقني، عملت في ألمانيا بشكل مستمر وتحمّلت مسؤوليات فعلية — من
+          ذلك العمل في خدمات التوصيل والقيادة وكذلك في لوجستيات المستودعات.
+        </p>
+        <a href="https://elzainali.github.io/Ali/" class="highlight-link">
+          عرض المسار المهني <span aria-hidden="true">←</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt">
+    <div class="section-inner">
+      <p class="section-label">02 — المهارات</p>
+      <h2 class="section-title">مكوّنات ملفي الشخصي</h2>
+
+      <div class="module-grid">
+
+        <article class="module-card">
+          <div class="module-pins" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <p class="module-tag">الوحدة&nbsp;01</p>
+          <h3>عتاد الحاسوب</h3>
+          <p>اختيار وتجميع أنظمة كاملة — معالج، لوحة أم، ذاكرة عشوائية، تبريد ومزود طاقة،
+          تم اختيارها وتركيبها بشكل مستقل.</p>
+        </article>
+
+        <article class="module-card">
+          <div class="module-pins" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <p class="module-tag">الوحدة&nbsp;02</p>
+          <h3>Python &amp; PyQt6</h3>
+          <p>تطوير تطبيق سطح مكتب لتحرير الفيديو والصوت بدعم الذكاء الاصطناعي، يشمل تحرير
+          الصور والتعرف على النصوص واختبارات آلية.</p>
+        </article>
+
+        <article class="module-card">
+          <div class="module-pins" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <p class="module-tag">الوحدة&nbsp;03</p>
+          <h3>تطوير الويب</h3>
+          <p>مواقع ويب منظمة وثنائية اللغة باستخدام HTML وCSS وJavaScript — نظيفة، متجاوبة،
+          وبدون اعتماديات غير ضرورية.</p>
+        </article>
+
+        <article class="module-card">
+          <div class="module-pins" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <p class="module-tag">الوحدة&nbsp;04</p>
+          <h3>التعلّم الذاتي</h3>
+          <p>تطوير ذاتي مستمر على مدى سنوات — تعلّم تقنيات جديدة بشكل مستقل وتطبيقها مباشرة
+          في مشاريع حقيقية.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <p class="section-label">03 — المشاريع</p>
+      <h2 class="section-title">أعمال مختارة</h2>
+
+      <div class="project-list">
+
+        <article class="project-card">
+          <div class="project-head">
+            <p class="project-id">المشروع&nbsp;01</p>
+            <h3>ZainMotion</h3>
+          </div>
+          <p>تطبيق سطح مكتب لتحرير الفيديو والصوت بدعم الذكاء الاصطناعي: تحويل النص إلى
+          فيديو، توليد الصوت، ترجمة تلقائية، وتحرير الصور في واجهة واحدة.</p>
+          <ul class="tag-list">
+            <li>Python</li><li>PyQt6</li><li>تكامل الذكاء الاصطناعي</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <p class="project-id">المشروع&nbsp;02</p>
+            <h3>Cortex Business Labs</h3>
+          </div>
+          <p>موقع ويب مؤسسي ثنائي اللغة (إنجليزي/عربي) لشركة استشارية — تم تصميمه وتنفيذه
+          بشكل مستقل بهوية بصرية واضحة.</p>
+          <ul class="tag-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-head">
+            <p class="project-id">المشروع&nbsp;03</p>
+            <h3>تجميع حاسوب عالي الأداء</h3>
+          </div>
+          <p>تجميع كامل ومستقل لحاسوب عالي الأداء: اختيار المكوّنات، التحقق من التوافق،
+          والتركيب — من التخطيط وحتى أول تشغيل للنظام.</p>
+          <ul class="tag-list">
+            <li>عتاد</li><li>AMD Ryzen 9</li><li>DDR5</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt">
+    <div class="section-inner narrow">
+      <p class="section-label">04 — تواصل</p>
+      <h2 class="section-title">لنتحدث عن ذلك</h2>
+      <p class="lead">
+        يسعدني تلقي رسالتك — سواء لمقابلة عمل، أو استفسار، أو مجرد تواصل مهني.
+      </p>
+
+      <div class="contact-card">
+        <dl class="contact-list">
+          <div>
+            <dt>البريد الإلكتروني</dt>
+            <dd dir="ltr"><a href="mailto:zainetsoftg@gmail.com">zainetsoftg@gmail.com</a></dd>
+          </div>
+          <div>
+            <dt>الهاتف</dt>
+            <dd dir="ltr"><a href="tel:+491771832662">(0177) 183 26 62</a></dd>
+          </div>
+          <div>
+            <dt>الموقع</dt>
+            <dd>أنسبيك، ألمانيا</dd>
+          </div>
+        </dl>
+        <a href="mailto:zainetsoftg@gmail.com" class="btn btn-primary btn-block">إرسال بريد إلكتروني</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>© 2026 Elzain Ali</p>
+    <nav aria-label="روابط قانونية">
+      <a href="impressum-ar.html">بيانات الناشر</a>
+      <a href="datenschutz-ar.html">سياسة الخصوصية</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
